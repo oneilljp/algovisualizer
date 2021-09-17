@@ -2,36 +2,36 @@
   --main-text-color: #88c0d0;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: #2e3440;
-  /* background-image: url("../images/Wallpaper1.jpg"); */
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
 }
 
 h1 {
   color: var(--main-text-color);
+  border: 3px solid #434c5e;
+  background-color: #3B4252;
+  border-radius: 10px;
   font-family: Iosevka;
   text-align: center;
-  font-size: 300%;
-  border: 3px solid #3b4252;
-  background-color: #3b4252;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 3rem;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 small {
   color: #8fbcbb;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 /* NavBar */
 
 .navbar {
   list-style-type: none;
-  margin: 0;
+  margin: 2%;
   padding: 0;
   overflow: hidden;
   border-bottom: 3px solid #3b4252;
@@ -42,8 +42,9 @@ small {
 li {
   float: right;
   font-family: Iosevka;
-  font-size: 20px;
+  font-size: 1.7rem;
   color: var(--main-text-color);
+  vertical-align: middle;
 }
 
 .list {
@@ -59,8 +60,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.5s;
 }
-:window-inactive li a:hover {
+
+li a:hover {
   background-color: #4c566a;
 }
 
